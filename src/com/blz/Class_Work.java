@@ -26,7 +26,7 @@ public class Class_Work<T extends Comparable<T>> {
         return null; }
 
     public static void main(String[] args) {
-        Integer xint = 12, yint = 22, zint = 55;
+        Integer xint = 122, yint = 22, zint = 55;
         Float xf = 2.2f, yf = 3.4f, zf = 10.5f;
         String str1 = "Rehan", str2 = "Rameez", str3 = "Sharmin";
         new Class_Work<>(xint, yint, zint).maximum();
